@@ -59,7 +59,13 @@ pasos para levantar  **SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC**:
 1. Revisamos que esten abiertos.
 2. los iniciamos los servicios desde el escritorio.
 
+---
 
+1. SGCVSVC: Monitor de controles volumetricos
+2. SGERSVC: Monitor de envio y recepcion de informacion
+3. SGPMSVC: Monitor de bombas
+4. SGPSSVC: Servidor de imprecion
+5. SGTMSVC: Monitor de tanque
 ---
 
 
