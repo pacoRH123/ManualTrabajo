@@ -63,9 +63,25 @@ pasos para levantar  **SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC**:
 
 1. SGCVSVC: Monitor de controles volumetricos
 2. SGERSVC: Monitor de envio y recepcion de informacion
-3. SGPMSVC: Monitor de bombas
-4. SGPSSVC: Servidor de imprecion
-5. SGTMSVC: Monitor de tanque
+4. SGPMSVC: Monitor de bombas
+5. SGPSSVC: Servidor de imprecion
+6. SGTMSVC: Monitor de tanque
 ---
 
+sql
+checar sql server browser y mssqlserver
 
+
+ruta donde se gaurdon los accesos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
+disco local/program files/atio/controlgas
+
+ruta donde se gaurdon los archivos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
+disco local/program files/atio/controlgas/carpeta de monitor
+
+
+
+
+INSTALAR CGMONITOR
+WINSCP
+PERFIL4
+SELECIONAMOS LOS QUE APARECCA EN EL PORTAL
