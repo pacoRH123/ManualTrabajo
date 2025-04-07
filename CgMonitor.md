@@ -15,6 +15,11 @@ Este documento tiene como objetivo guiar en el uso de la herramienta.
 
 ---
 
+## Nunca atender
+no atender los que digan asa ...
+
+---
+
 ## AtioLoader
 
 pasos para levantar  **AtioLoader**:
