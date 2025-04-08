@@ -1,7 +1,4 @@
-# Manual para usar cgMonitor
-
-## Introducción
-Este documento tiene como objetivo guiar en el uso de la herramienta.
+# Manual
 
 ---
 
@@ -72,7 +69,15 @@ pasos para levantar  **SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC**:
 sql
 checar sql server browser y mssqlserver
 
+cuando el num cliente y el host estan mal hacemos lo siguiente
+1. se desisntala la aplicacion de commvault
+2. presionamos que desistale todos los paquetes de la instancia
+3. luego procedemos a instalar commvaul desde donde estan todos los instaladores
+4. colocamos el num cliente y host correctos e instalamos
 
+
+para instalar los programas
+c/archivos del programa/atio/controlgas/herramientas   -> aquie estan los instaladores
 
 
 
