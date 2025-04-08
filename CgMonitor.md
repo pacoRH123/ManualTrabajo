@@ -12,7 +12,7 @@ en caso de no poder abrir servicios iniciarlos desde el administrador de tareas 
 6. SGTMSVC: Monitor de tanque
 
 7. ruta donde se gaurdon los accesos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
-disco local/program files/atio/controlgas
+disco local/program files(86)/atio/controlgas
 
 8. ruta donde se gaurdon los archivos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
 disco local/program files/atio/controlgas/carpeta de monitor
