@@ -4,17 +4,23 @@
 
 ## NOTAS
 no atender los que digan ASA ...
+
 en caso de no poder abrir servicios iniciarlos desde el administrador de tareas (click derecho en barra de tareas)
 1. SGCVSVC: Monitor de controles volumetricos
-2. SGERSVC: Monitor de envio y recepcion de informacion
-4. SGPMSVC: Monitor de bombas
-5. SGPSSVC: Servidor de imprecion
-6. SGTMSVC: Monitor de tanque
+<img src="imagenes/MonitorVolumetricos.png"/>
+3. SGERSVC: Monitor de envio y recepcion de informacion
+   <img src="imagenes/MonitorInformacion.png"/>
+5. SGPMSVC: Monitor de bombas
+   <img src="imagenes/MonitorBombas.png"/>
+7. SGPSSVC: Servidor de imprecion
+   <img src="imagenes/MonitorImpresion.png"/>
+9. SGTMSVC: Monitor de tanque
+    <img src="imagenes/MonitorTanques.png"/>
 
-7. ruta donde se gaurdon los accesos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
+11. ruta donde se gaurdon los accesos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
 disco local/program files(86)/atio/controlgas
 
-8. ruta donde se gaurdon los archivos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
+12. ruta donde se gaurdon los archivos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
 disco local/program files/atio/controlgas/carpeta de monitor
 
 ---
@@ -37,11 +43,12 @@ pasos para levantar  **Atio update,envol supervisor,FG ip sender,whatch dog atio
 
 1. Ingresar a proces o commvault.
 2. verificar que el host y el servidor sean correctos.
-3. Diriguirse a servicios
-4. Detener los 3 servicios.
-5. Iniciar los 3 servicios.
-6. si no deja iniciarlos, nos vamos a servicios y buscamos commvault
-7. los habilitamos poniendolos en automatico
+   <img src="imagenes/cloud.png"/>
+4. Diriguirse a servicios
+5. Detener los 3 servicios.
+6. Iniciar los 3 servicios.
+7. si no deja iniciarlos, nos vamos a servicios y buscamos commvault
+8. los habilitamos poniendolos en automatico
 
 ---
 
@@ -81,6 +88,10 @@ c/archivos del programa/atio/controlgas/herramientas   -> aquie estan los instal
 
 
 
+
+
+---
+## Instalaciones
 INSTALAR CGMONITOR
 WINSCP
 PERFIL4
