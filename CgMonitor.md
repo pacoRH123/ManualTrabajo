@@ -3,96 +3,163 @@
 ---
 
 ## NOTAS
-no atender los que digan ASA ...
 
-en caso de no poder abrir servicios iniciarlos desde el administrador de tareas (click derecho en barra de tareas)
-1. SGCVSVC: Monitor de controles volumetricos
-<img src="imagenes/MonitorVolumetricos.png"/>
-3. SGERSVC: Monitor de envio y recepcion de informacion
-   <img src="imagenes/MonitorInformacion.png"/>
-5. SGPMSVC: Monitor de bombas
-   <img src="imagenes/MonitorBombas.png"/>
-7. SGPSSVC: Servidor de imprecion
-   <img src="imagenes/MonitorImpresion.png"/>
-9. SGTMSVC: Monitor de tanque
-    <img src="imagenes/MonitorTanques.png"/>
+- **No atender** los que digan ASA...
+- En caso de no poder abrir servicios, iniciarlos desde el administrador de tareas (clic derecho en barra de tareas):
 
-11. ruta donde se gaurdon los accesos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
-disco local/program files(86)/atio/controlgas
+### Servicios a iniciar manualmente
 
-12. ruta donde se gaurdon los archivos SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
-disco local/program files/atio/controlgas/carpeta de monitor
+1. **SGCVSVC:** Monitor de controles volumétricos  
+   ![](imagenes/MonitorVolumetricos.png)
+
+2. **SGERSVC:** Monitor de envío y recepción de información  
+   ![](imagenes/MonitorInformacion.png)
+
+3. **SGPMSVC:** Monitor de bombas  
+   ![](imagenes/MonitorBombas.png)
+
+4. **SGPSSVC:** Servidor de impresión  
+   ![](imagenes/MonitorImpresion.png)
+
+5. **SGTMSVC:** Monitor de tanque  
+   ![](imagenes/MonitorTanques.png)
+
+---
+
+### Rutas
+
+- Ruta donde se guardan los accesos de los servicios:  
+  `C:/Program Files (x86)/Atio/ControlGAS`
+
+- Ruta donde se guardan los archivos de los servicios:  
+  `C:/Program Files/Atio/ControlGAS/Carpeta de monitor`
 
 ---
 
 ## CgMonitor
 
-pasos para levantar  **Atio update,envol supervisor,FG ip sender,whatch dog atio loader**:
+Pasos para levantar **Atio Update, Envol Supervisor, FG IP Sender, Watch Dog Atio Loader**:
 
-1. Ingresar a servicios.
-2. los buscamosr.
-3. clic derecho a en el servicio.
-4. Nos dirigimos a la pestaña de recuperacion.
-5. seleccionamos reiniciar servicios en los 3 apartados y ponemos 0 en dias y 1 en minutos.
-6. revisamos que atio loader se este ejecutando
-7. por ultimo reiniciamos cgmonitor en el apartado de servicios
+1. Ingresar a *Servicios*.
+2. Buscar los servicios correspondientes.
+3. Clic derecho sobre el servicio.
+4. Dirigirse a la pestaña de **Recuperación**.  
+   ![](imagenes/recuperacion.png)
+5. Seleccionar **Reiniciar servicios** en los 3 apartados, poner:
+   - Días: `0`
+   - Minutos: `1`  
+   ![](imagenes/reiniciar.png)
+6. Revisar que **Atio Loader** se esté ejecutando.
+7. Por último, reiniciar **CgMonitor** desde el apartado de *Servicios*.
 
 ---
 
 ## Cloud
 
-1. Ingresar a proces o commvault.
-2. verificar que el host y el servidor sean correctos.
-   <img src="imagenes/cloud.png"/>
-4. Diriguirse a servicios
-5. Detener los 3 servicios.
-6. Iniciar los 3 servicios.
-7. si no deja iniciarlos, nos vamos a servicios y buscamos commvault
-8. los habilitamos poniendolos en automatico
+1. Ingresar a proceso o **Commvault**.  
+   ![](imagenes/commvault.png)
+2. Verificar que el host y el servidor sean correctos.  
+   ![](imagenes/cloud.png)
+3. Dirigirse a *Servicios*.  
+   ![](imagenes/Servicios.png)
+4. Detener los 3 servicios.
+5. Iniciar los 3 servicios.  
+   ![](imagenes/inicio.png)
+6. Si no permite iniciarlos, ir a servicios, buscar **Commvault** y habilitarlos (poner en automático).
 
 ---
 
-## CPU,FREESPACEHD,MEM
+## SGCVSVC, SGERSVC, SGPMSVC, SGPSSVC, SGTMSVC
 
-pasos para levantar  **CPU FREESPACEHD MEM**:
+Pasos para levantar estos servicios:
 
-1. 
-2. 
-
----
-
-## SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC
-
-pasos para levantar  **SGCVSVC,SGERSVC,SGPMSVC,SGPSSVC,SGTMSVC**:
-
-1. Revisamos que esten abiertos.
-2. los iniciamos los servicios desde el escritorio.
+1. Verificar que estén abiertos.
+2. Iniciar los servicios desde el escritorio.
 
 ---
 
+## SQL
+
+### Revisar
+
+- SQL Server Browser
+- MSSQLSERVER
+
+### Cuando el número de cliente y el host están mal:
+
+1. Desinstalar la aplicación de **Commvault**.
+2. Seleccionar que desinstale todos los paquetes de la instancia.
+3. Instalar nuevamente desde la carpeta con todos los instaladores.
+4. Colocar el número de cliente y el host correctos.
+5. Proceder con la instalación.
 
 ---
 
-sql
-checar sql server browser y mssqlserver
+### Instaladores
 
-cuando el num cliente y el host estan mal hacemos lo siguiente
-1. se desisntala la aplicacion de commvault
-2. presionamos que desistale todos los paquetes de la instancia
-3. luego procedemos a instalar commvaul desde donde estan todos los instaladores
-4. colocamos el num cliente y host correctos e instalamos
+Ruta:  
+`C:/Archivos de programa/Atio/ControlGAS/Herramientas`
 
-
-para instalar los programas
-c/archivos del programa/atio/controlgas/herramientas   -> aquie estan los instaladores
-
-
-
-
+Ahí se encuentran los instaladores.
 
 ---
+
 ## Instalaciones
-INSTALAR CGMONITOR
-WINSCP
-PERFIL4
-SELECIONAMOS LOS QUE APARECCA EN EL PORTAL
+
+- INSTALAR:
+  - **CGMonitor**
+  - **WinSCP**
+  - **Perfil4**
+
+Seleccionar los que aparezcan en el portal.
+
+---
+
+## FreeSpached
+
+### Limpieza de espacio
+
+1. Ir a:  
+   `C:/Archivos de programa/Microsoft SQL Server/MSSQLSERVER/MSSQL/DATA` o `Backup`
+2. Abrir el **Liberador de espacio en disco** de Windows.
+3. Seleccionar todo y aceptar.
+
+---
+
+### Borrar archivos temporales
+
+Ruta: `%temp%`  
+Seleccionar todo y borrar.
+
+---
+
+### Borrar log de SQL
+
+Pasos:
+
+1. Abrir SQL Server.
+2. Ir a "Ventanas" y buscar el nombre de la base de datos.
+3. Presionar **New Query**.
+4. Ingresar el script (reemplazando el nombre de la base).
+5. Seleccionar la base `master`, cambiarla por la correspondiente.
+6. Ejecutar.
+7. Repetir para la base **featio**.
+
+#### Script
+
+```sql
+USE [P04073];
+GO
+-- Truncate the log by changing the database recovery model to SIMPLE.
+ALTER DATABASE [P04073]
+SET RECOVERY SIMPLE;
+GO
+-- Shrink the truncated log file to 1 MB.
+-- backup database [P04073] to disk = 'C:\ControlGAS\Herramientas\BD\Los Santos_280409.bak' with init
+
+DBCC SHRINKDATABASE ([P04073], TRUNCATEONLY )
+GO
+-- Reset the database recovery model.
+ALTER DATABASE [P04073]
+SET RECOVERY FULL;
+GO
