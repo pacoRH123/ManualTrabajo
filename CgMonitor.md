@@ -104,12 +104,16 @@ Ahí se encuentran los instaladores.
 
 ---
 
-## Instalaciones
+## Instalar CgMonitor
 
-- INSTALAR:
-  - **CGMonitor**
-  - **WinSCP**
-  - **Perfil4**
+1. ir a la carpeta de control gas
+2. abrir el uk y en tipo debe de decir maestra
+3. copiamos el .zip en descargas
+4. iniciamos la instalacion
+5. seleccionamos perfil 4
+6. seleccionamos los que ocupe la estacion
+7. abrimos el log que se creo y mandamos pruebas el grupo de cgmonitor y esperamos validacion
+   ![](imagenes/pruebaInstalacioncg.png)
 
 Seleccionar los que aparezcan en el portal.
 
