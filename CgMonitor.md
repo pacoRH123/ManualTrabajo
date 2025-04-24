@@ -5,6 +5,7 @@
 ## NOTAS
 
 - **No atender** los que digan ASA...
+- **No atender** GRUPO GRAN VÍA (MEIGAS)
 - En caso de no poder abrir servicios, iniciarlos desde el administrador de tareas (clic derecho en barra de tareas):
 
 ### Servicios a iniciar manualmente
