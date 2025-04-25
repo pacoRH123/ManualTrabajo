@@ -102,6 +102,8 @@ Ruta:
 `C:/Archivos de programa/Atio/ControlGAS/Herramientas`
 
 Ahí se encuentran los instaladores.
+## WinScp
+   ![](imagenes/imagen.png)
 
 ---
 
